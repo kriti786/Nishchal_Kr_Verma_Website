@@ -1,0 +1,161 @@
+.over{
+  width:100%;
+  height:500px;
+}
+.container{
+  position: relative;
+background-color: black;
+}
+.text-box{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.white-section {
+  background-color: #fff;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.card-column {
+  padding: 3% 2%;
+}
+.bio-back{
+  position: relative;
+  background-image: url(images/02.jpeg);
+  /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    /* Background image is fixed in the viewport so that it doesn't move when
+       the content's height is greater than the image's height */
+    background-attachment: fixed;
+    /* This is what makes the background image rescale based
+       on the container's size */
+    background-size: cover;
+    /* Set a background color that will be displayed
+       while the background image is loading */
+    background-color: #464646;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    height:auto;
+  }
+.exp-back{
+  position: relative;
+  background-image: url(images/03.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    height:800px;
+}
+.exp-tab{
+  border-collapse: separate;
+border-spacing: 15px;
+}
+.research-back{
+  position: relative;
+  background-image: url(images/05.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    height:900px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+.res-tab{
+  border-collapse: separate;
+border-spacing: 20px;
+margin-left: auto;
+margin-right: auto;
+
+}
+.publish-back{
+  background-image: url(images/06.jpg);
+
+}
+.book-back{
+  position: relative;
+  background-image: url(images/11.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    height:auto;
+}
+.book-tab{
+  background-color: white;
+}
+.award-back{
+  position: relative;
+  background-image: url(images/12.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    height:auto;
+    color: white;
+}
+.awd-tab{
+font-size: 20px;
+  border-collapse: separate;
+border-spacing: 10px;
+}
+.recog-back{
+  position: relative;
+  background-image: url(images/13.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    height:900px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.idea-back{
+  position: relative;
+  background-image: url(images/15.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    height:950px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.mail{
+  padding-top: 30px;
+  
+background-color: black;
+color: white;
+
+}
+.row{
+  position: relative;
+  background-image: url(images/16.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    height:auto;
+}
+.bttn{
+  background-color: grey;
+width:100%;
+
+}
